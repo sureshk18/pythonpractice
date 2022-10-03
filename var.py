@@ -1,6 +1,3 @@
-from traceback import print_list
-
-
 x = 100
 print(x)
 print(type(x))
@@ -19,3 +16,18 @@ print(list[3])
 # update value
 list[4] = 12
 print(list)
+
+
+# ARITHMETIC OPERATOR
+
+a = 12
+b = 12
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+
+a = 10
+b = 3
+print(a//b)
+print(a % b)
