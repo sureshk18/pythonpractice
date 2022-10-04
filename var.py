@@ -75,3 +75,12 @@ print(mix[0:4])
 
 mat = [[1, 2, 3], ['a', 'b']]
 print(mat)
+
+
+fruit = ['banana', 'mango', 'apple']
+fruit.append('orange')
+fruit.extend('banana')
+fruit.insert(1, 'guava')
+fruit.remove(0)
+fruit.sort()
+print(fruit)
